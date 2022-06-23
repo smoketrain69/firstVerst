@@ -1,0 +1,143 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Anton', sans-serif;
+	color: black;
+	font-size: 16px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 50px;
+	margin-bottom: 58px;
+}
+
+h3 {
+	font-size: 25px;
+	margin-bottom: 28px;
+}
+
+a {
+	text-decoration: none;
+}
+
+section {
+	padding-top: 113px	
+}
+
+p {
+	margin: 0;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto; 
+}
+.header{
+    background: url('../pics/header-bg.jpg') no-repeat center top /cover;
+    padding-top: 57px;
+    color: #FFF;
+    padding-bottom: 322px;
+}
+header a{
+    color: #FFF;
+}
+.logo{
+    margin-right: 69px;
+    
+}
+.menu{
+    display: flex;
+    
+}
+.menu li a{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 14;
+}
+.menu li{
+    margin-right: 40px;
+    letter-spacing: 0.1em;
+}
+.tel{
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: auto;
+    letter-spacing: 0.1em;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    padding-top: 57px;
+}
+.offer{
+    text-transform: uppercase;
+}
+.offer p{
+    margin-top: 229px;
+    font-size: 30px;
+    color: #FFF;
+    letter-spacing: 0.1em;
+}
+.offer h1{
+    font-size: 100px;
+    color: #FFF;
+    font-weight: 400;
+    margin-top: -9px;
+    letter-spacing: 0.02em;
+    margin-left: -2.5px;
+    margin-bottom: 19px;
+}
+.offer a{
+    size: 17px;
+    letter-spacing: 0.1em;
+}
+.btn{
+    display: block;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 17px 47px;
+    border: 1px solid #FFF;
+    width: 238px;
+    transition: all 0.5s ease;
+}
+.btn:hover{
+    background: #FFF;
+    color: #000;
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+}
+.description p{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    width: 564px;
+    font-size: 16px;
+    line-height: 1.62em;
+    text-align: justify;
+    
+}
+.gallery{
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 67px;
+}
